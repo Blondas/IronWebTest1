@@ -1,0 +1,12 @@
+kris_iron_api:
+    resource: "@KrisIronApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+users:
+    type: rest
+    resource: Kris\IronApiBundle\Controller\UsersController
